@@ -1,9 +1,6 @@
-﻿using KHN.API.Models;
-using Microsoft.AspNetCore.Http;
+﻿
 using Microsoft.AspNetCore.Mvc;
-using System.IO;
-using System.Net;
-using System.Net.Http.Headers;
+
 
 namespace KHN.API.Controllers
 {
