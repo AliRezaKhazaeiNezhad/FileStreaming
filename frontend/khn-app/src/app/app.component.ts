@@ -19,7 +19,7 @@ export class AppComponent implements OnInit {
   }
 
   playAudio(): void {
-    this.http.get('http://localhost:55872/api/Audio', { responseType: 'blob' })
+    this.http.get('https://fua.apinouroai.ir/api/Audio', { responseType: 'blob' })
      .subscribe((response: Blob) => {
         const audioUrl = URL.createObjectURL(response);
         this.audioPlayer.nativeElement.src = audioUrl;
